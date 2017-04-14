@@ -1,0 +1,11 @@
+git init 用于初始化一个本地git仓库
+git status 使用git status查看文件是否被跟踪
+git add 将修改后的文件加入暂存区.
+git commit 该命令用于产生一次新的提交.git中的记录都是以commit的形式存在.只要提交记录就会保存在仓库中.
+git remote 该命令用于查看和添加远程仓库
+git branch 查看当前仓库所有分支
+git checkout 用于切换分支
+git pull <远程仓库名称> <分支名称>使用以上命令拉取远程仓库的记录
+git push <远程仓库名称> <分支名称>将本地记录推送至远程仓库
+git stash 将工作空间恢复到最近一次提交,并将暂存区中的修改保存起来
+git merge <分支名称>合并其他分支
